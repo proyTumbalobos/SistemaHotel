@@ -1,0 +1,15 @@
+
+/* FONDO DETRAS DE LAS TABLAS ---  */
+.br-panel2 {
+    background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    min-height: 60vh; /* FONDO DETRAS DE LAS TABLAS  */
+    /* color: hsl(86, 54%, 55%);  Asegura buen contraste del texto sobre el fondo claro */
+    padding: 20px; /* Espacio interior para separar el contenido de los bordes */
+}
+
+h1, h3, h4, h5, h6 {
+    color: #000000; /* COLOR DE LETRA DE TODO EL SISTEMA*/
+}
+h2 {
+    color: #ffffff; /* COLOR DE LETRA DE TODO EL SISTEMA*/
+}

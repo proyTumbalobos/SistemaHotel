@@ -1,0 +1,84 @@
+/* Estilo base para el sidebar */
+.br-sideleft {
+    width: 260px;
+    background: #34495e;
+    color: white;
+    height: 100vh;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Texto grande */
+.sidebar-label {
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px 10px;
+    margin-top: 18px;
+    display: block;
+    text-transform: uppercase;
+}
+
+/* Texto pequeño */
+.br-menu-link {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.br-menu-link:hover {
+    background-color: #1abc9c;
+    transform: translateX(5px);
+    border-left: 5px solid #16a085;
+}
+
+/* Submenús desplegables */
+.br-menu-sub {
+    background-color: #263238;
+    display: none;
+    padding-left: 20px;
+}
+
+.br-menu-sub.active {
+    display: block;
+}
+
+.br-menu-sub a {
+    display: block;
+    color: #b0bec5;
+    padding: 8px;
+    transition: color 0.3s;
+}
+
+.br-menu-sub a:hover {
+    color: #ffffff;
+}
+
+/* Logo y sombra del sidebar */
+.br-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.br-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.sidebar {
+    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .list-group-item {
+    border: none;
+    background-color: inherit;
+}
+.br-main-content {
+    margin-left: 260px; /* Espacio para el sidebar */
+
+}

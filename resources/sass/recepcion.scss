@@ -1,0 +1,13 @@
+/* custom.css */
+.nav-item .nav-link {
+    color: #1abc9c; /* Color inicial del enlace */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espaciado interno */
+    display: block; /* Ocupa toda la línea */
+    transition: color 0.3s, background-color 0.3s; /* Transiciones suaves */
+}
+
+.nav-item .nav-link:hover {
+    color: #16a085; /* Color del texto al pasar el ratón */
+    background-color: #e0f7fa; /* Fondo al pasar el ratón */
+}

@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: #121212; 
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 360px;
+    background: #232323;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    color: #ffffff;
+}
+
+.card-header {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.form-control {
+    background: #333333;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.btn-login {
+    background: linear-gradient(45deg, #6a11cb, #2575fc); 
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-link {
+    color: #00bfff; 
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}

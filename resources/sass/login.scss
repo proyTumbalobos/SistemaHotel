@@ -1,0 +1,46 @@
+/* Estilos específicos para el formulario de inicio de sesión */
+.card {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: rgba(0, 123, 255, 0.8); /* Color de fondo con transparencia */
+    color: white; /* Color de texto blanco */
+    border-radius: 10px 10px 0 0; /* Añade bordes redondeados solo arriba */
+}
+
+.card-header h4 {
+    margin-bottom: 0; /* Elimina el margen inferior del título */
+    padding: 10px; /* Añade un poco de espacio interno al título */
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.btn-link {
+    color: #007bff;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important; /* Ajusta el espaciado entre los elementos */
+}
+
