@@ -7,7 +7,7 @@
 <div class="list-group">
     <div href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
         <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-2">Cuartos</h5>
+            <h5 class="mb-2">Habitaciones</h5>
             <!-- Filtro de Estado -->
             <form method="GET" action="{{ route('recepcion.index') }}" class="d-flex">
                 <select name="estado" class="form-select me-2">

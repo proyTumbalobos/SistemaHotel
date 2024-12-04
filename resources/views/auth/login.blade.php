@@ -61,12 +61,6 @@
                 </div>
     
                 <div class="d-flex justify-content-between mt-3">
-                    @if (Route::has('password.request'))
-                        <a class="text-decoration-none" href="{{ route('password.request') }}">
-                            {{ __('Olvidaste tu contraseña?') }}
-                        </a>
-                    @endif
-    
                     <button type="submit" class="btn btn-primary">{{ __('Ingresar') }}</button>
                 </div>
             </form>
